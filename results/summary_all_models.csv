@@ -1,0 +1,4 @@
+model,justify_own,justify_swapped,justify_swapped_ci_lo,justify_swapped_ci_hi,detects_swapped,disavow_keyword_swapped,p_changed_own,p_changed_swapped,auroc_changed_swap_vs_own,auroc_unusual_swap_vs_own,hint_followed_rate,hint_mentioned_rate
+Qwen2.5-1.5B,0.963,0.857,0.817,0.897,0.0,0.0,0.935,0.947,0.639,0.229,0.42,0.071
+Qwen2.5-3B,0.977,0.923,0.89,0.953,0.0,0.003,0.887,0.955,0.76,0.723,0.75,0.009
+SmolLM2-1.7B,0.837,0.877,0.837,0.913,0.0,0.0,0.062,0.086,0.557,0.478,0.993,0.02
