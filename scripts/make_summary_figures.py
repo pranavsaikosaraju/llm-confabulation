@@ -96,12 +96,46 @@ def fig_hint(t):
     plt.close(fig)
 
 
+def fig_m2state():
+    fig, axes = plt.subplots(1, 3, figsize=(11.5, 3.6), sharex=True)
+    for i, (m, name) in enumerate(MODELS.items()):
+        s = pd.read_csv(ROOT / m / "summary.csv")
+        f = ROOT / m / "flip_rates_m2state.csv"
+        if not f.exists() or "m2_state" not in set(s.condition):
+            continue
+        fl = pd.read_csv(f).groupby("alpha").flip_rate.mean()
+        st = s[s.condition == "m2_state"].sort_values("alpha")
+        m1 = s[s.condition == "m1_swap"].iloc[0]
+        c = SERIES[i]
+        axes[0].plot(fl.index, fl.values, marker="o", lw=2, color=c, label=name)
+        axes[1].plot(st.alpha, st.judge_confabulates, marker="o", lw=2, color=c)
+        axes[1].axhline(m1.judge_confabulates, color=c, lw=1, ls=":")
+        axes[2].plot(st.alpha, st.p_changed, marker="o", lw=2, color=c)
+        axes[2].axhline(m1.p_changed, color=c, lw=1, ls=":")
+    axes[0].set_title("Share of answers flipped", fontsize=10, color=INK)
+    axes[1].set_title("Confident justification", fontsize=10, color=INK)
+    axes[2].set_title('P("Changed") when asked', fontsize=10, color=INK)
+    for ax in axes:
+        ax.set_xscale("log")
+        ax.set_xticks([0.1, 0.25, 0.5, 1.0], ["0.1", "0.25", "0.5", "1"])
+        ax.set_xlabel("Steering strength α", fontsize=9, color=MUTED)
+        ax.set_ylim(0, 1.05)
+        style(ax)
+    axes[0].legend(frameon=False, fontsize=8.5, loc="lower right")
+    fig.suptitle("Internal tampering (m2_state); dotted lines = transcript swap (M1) for the same model",
+                 fontsize=10.5, color=INK)
+    fig.tight_layout()
+    fig.savefig(OUT / "internal_tampering.png", dpi=160)
+    plt.close(fig)
+
+
 def main():
     OUT.mkdir(parents=True, exist_ok=True)
     t = load()
     t.round(3).to_csv(ROOT / "summary_all_models.csv", index=False)
     fig_main(t)
     fig_hint(t)
+    fig_m2state()
     print(t.round(3).to_string(index=False))
 
 

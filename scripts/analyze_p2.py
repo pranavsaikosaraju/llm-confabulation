@@ -65,7 +65,7 @@ def matched_sep(genuine: pd.DataFrame, confab: pd.DataFrame, seed=0):
     subsampled to equal size per word so the answer word itself cannot separate them."""
     ga, cb = [], []
     rng = np.random.default_rng(seed)
-    for w in set(genuine.answer) & set(confab.answer):
+    for w in sorted(set(genuine.answer) & set(confab.answer)):  # sorted: set order varies between runs
         g = genuine[genuine.answer == w].explanation.tolist()
         c = confab[confab.answer == w].explanation.tolist()
         k = min(len(g), len(c))
