@@ -89,6 +89,17 @@ class Chat:
             out.append(hs[:, -1, :].float().cpu().numpy())
         return np.concatenate(out)
 
+    @torch.no_grad()
+    def answer_token_acts(self, convs, word: str, layer: int, batch_size=16) -> np.ndarray:
+        """Residual stream at the answer token when `word` is written as the assistant's reply."""
+        out = []
+        for s in range(0, len(convs), batch_size):
+            texts = [self.render(c) + word for c in convs[s:s + batch_size]]
+            enc = self._enc(texts)
+            hs = self.model(**enc, output_hidden_states=True, use_cache=False).hidden_states[layer]
+            out.append(hs[:, -1, :].float().cpu().numpy())
+        return np.concatenate(out)
+
     # --------------------------------------------------------------- steering
     def blocks(self):
         for path in ("model.layers", "gpt_neox.layers", "transformer.h"):
