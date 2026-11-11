@@ -1,12 +1,16 @@
 comparison,auroc,n_per_class
-genuine (M0) vs transcript swap (M1),0.76921875,80
-genuine (M0) vs m2_choice alpha=0.5,0.76921875,80
-genuine (M0) vs m2_choice alpha=1.0,0.76921875,80
-genuine (M0) vs m2_choice alpha=2.0,0.76921875,80
-genuine (M0) vs m2_choice alpha=4.0,0.7417355371900826,44
-genuine (M0) vs m2_through alpha=0.5,0.9007031249999999,80
-genuine (M0) vs m2_through alpha=1.0,0.99546875,80
+genuine (M0) vs transcript swap (M1),0.732265625,80
+genuine (M0) vs m2_choice alpha=0.5,0.732265625,80
+genuine (M0) vs m2_choice alpha=1.0,0.732265625,80
+genuine (M0) vs m2_choice alpha=2.0,0.732265625,80
+genuine (M0) vs m2_choice alpha=4.0,0.6195764462809916,44
+genuine (M0) vs m2_state alpha=0.1,,18
+genuine (M0) vs m2_state alpha=0.25,0.7498405612244898,56
+genuine (M0) vs m2_state alpha=0.5,0.73,80
+genuine (M0) vs m2_state alpha=1.0,0.8805468750000001,80
+genuine (M0) vs m2_through alpha=0.5,0.8950781250000002,80
+genuine (M0) vs m2_through alpha=1.0,0.9918750000000001,80
 genuine (M0) vs m2_through alpha=2.0,1.0,80
-genuine (M0) vs m2_through alpha=4.0,1.0,44
+genuine (M0) vs m2_through alpha=4.0,0.9999999999999999,44
 sanity: M0 'A' vs M0 'B' (choice),0.8187134502923976,36
 sanity: M0 'Negative' vs M0 'Positive' (sentiment),,4
