@@ -113,9 +113,16 @@ class Chat:
         raise ValueError("cannot find transformer blocks")
 
     @contextmanager
-    def steer(self, layer: int, vecs: np.ndarray | None):
+    def steer(self, layer: int, vecs: np.ndarray | None, n_unsteered_tail: np.ndarray | None = None):
         """Add vecs[i] to example i of every batch at hidden_states[layer] (block layer-1).
-        vecs: [n, d] for the batch being processed (set via self._steer_rows), or None for no-op."""
+
+        vecs: [n, d] for the batch being processed, or None for no-op.
+        n_unsteered_tail: optional [n] ints. If given, the last n_unsteered_tail[i] prompt
+            positions of example i are left unsteered, and so is every newly generated token.
+            Used for "m2_state": the question and the model's answer are processed with
+            steering on (so the cached activations of the earlier turn carry the push), while
+            the follow-up question and the reply are processed without it.
+        """
         if vecs is None:
             yield
             return
@@ -128,6 +135,13 @@ class Chat:
             add = v.to(h.device)
             if add.shape[0] != h.shape[0]:  # generate() may expand; never expected with greedy
                 add = add[:1]
+            if n_unsteered_tail is not None:
+                T = h.shape[1]
+                if T == 1:  # a generation step with the KV cache: never steered
+                    return output
+                pos = torch.arange(T, device=h.device).view(1, T, 1)
+                cut = torch.as_tensor(T - np.asarray(n_unsteered_tail), device=h.device).view(-1, 1, 1)
+                add = add * (pos < cut).to(add.dtype)
             h = h + add
             return (h,) + tuple(output[1:]) if isinstance(output, tuple) else h
 
@@ -138,12 +152,36 @@ class Chat:
             handle.remove()
 
 
-def batched_steered(fn, chat: Chat, convs, layer, vecs, batch_size=16, **kw):
+def tail_lengths(chat: Chat, convs, n_prefix_msgs: int) -> np.ndarray:
+    """Number of tokens after the first n_prefix_msgs messages in each rendered conversation."""
+    out = []
+    for c in convs:
+        full = chat.render(c)
+        prefix = chat.render(c[:n_prefix_msgs])
+        # render() adds a generation prompt; for the prefix we need it without one
+        msgs = [{"role": "system", "content": SYSTEM}] + c[:n_prefix_msgs]
+        try:
+            prefix = chat.tok.apply_chat_template(msgs, tokenize=False, add_generation_prompt=False)
+        except Exception:
+            pass
+        if not full.startswith(prefix):  # fall back to the longest common prefix
+            k = 0
+            while k < min(len(full), len(prefix)) and full[k] == prefix[k]:
+                k += 1
+            prefix = full[:k]
+        n_full = len(chat.tok(full, add_special_tokens=False).input_ids)
+        n_pre = len(chat.tok(prefix, add_special_tokens=False).input_ids)
+        out.append(max(1, n_full - n_pre))
+    return np.asarray(out)
+
+
+def batched_steered(fn, chat: Chat, convs, layer, vecs, batch_size=16, tails=None, **kw):
     """Run fn(chat, convs_batch, **kw) with a per-example steering vector."""
     outs = []
     for s in range(0, len(convs), batch_size):
         sub = convs[s:s + batch_size]
-        with chat.steer(layer, None if vecs is None else vecs[s:s + batch_size]):
+        with chat.steer(layer, None if vecs is None else vecs[s:s + batch_size],
+                        None if tails is None else tails[s:s + batch_size]):
             outs.append(fn(sub, batch_size=len(sub), **kw))
     if isinstance(outs[0], np.ndarray):
         return np.concatenate(outs)
