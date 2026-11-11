@@ -94,7 +94,10 @@ def main():
         is0 = (sub.nat_margin > 0).to_numpy()
         if is0.sum() < 5 or (~is0).sum() < 5:
             log(f"WARNING {task}: too few of one natural answer to build a vector ({is0.sum()} vs {(~is0).sum()})")
-        diff = acts[is0].mean(0) - acts[~is0].mean(0)
+        if is0.sum() == 0 or (~is0).sum() == 0:
+            diff = np.zeros(acts.shape[1], dtype=np.float32)  # cannot steer this task
+        else:
+            diff = acts[is0].mean(0) - acts[~is0].mean(0)
         vec[task] = diff  # points from option-1 answers toward option-0 answers
         log(f"{task}: steering vector norm {np.linalg.norm(diff):.2f}")
 
