@@ -60,7 +60,7 @@ def main():
     ap.add_argument("--model", required=True)
     ap.add_argument("--out", required=True)
     ap.add_argument("--n-per-task", type=int, default=300)
-    ap.add_argument("--alphas", default="1,2,4", help="steering strength in units of the class-mean gap")
+    ap.add_argument("--alphas", default="0.5,1,2,4", help="steering strength in units of the contrastive vector norm")
     ap.add_argument("--layer-frac", type=float, default=0.5, help="steering layer as a fraction of depth")
     ap.add_argument("--batch-size", type=int, default=16)
     ap.add_argument("--max-new-tokens", type=int, default=80)
@@ -88,16 +88,17 @@ def main():
     log("natural choice share of first option:\n" + df.groupby("task").nat_margin.apply(lambda m: (m > 0).mean()).to_string())
 
     # 2. steering vector per task from the calibration split ---------------------------
+    # Contrastive ("CAA"-style): for each calibration question, the residual stream at the
+    # answer token when the reply is option 0, minus the same when the reply is option 1.
+    # This does not depend on which answer the model naturally prefers, so it works even
+    # when a model gives the same answer to every item.
     vec = {}
     for task, sub in df[df.split == "calib"].groupby("task"):
-        acts = chat.last_token_acts([q_conv[i] for i in sub.index], L, bs)
-        is0 = (sub.nat_margin > 0).to_numpy()
-        if is0.sum() < 5 or (~is0).sum() < 5:
-            log(f"WARNING {task}: too few of one natural answer to build a vector ({is0.sum()} vs {(~is0).sum()})")
-        if is0.sum() == 0 or (~is0).sum() == 0:
-            diff = np.zeros(acts.shape[1], dtype=np.float32)  # cannot steer this task
-        else:
-            diff = acts[is0].mean(0) - acts[~is0].mean(0)
+        w0, w1 = sub.options.iloc[0].split("|")
+        convs = [q_conv[i] for i in sub.index]
+        a0 = chat.answer_token_acts(convs, w0, L, bs)
+        a1 = chat.answer_token_acts(convs, w1, L, bs)
+        diff = (a0 - a1).mean(0)
         vec[task] = diff  # points from option-1 answers toward option-0 answers
         log(f"{task}: steering vector norm {np.linalg.norm(diff):.2f}")
 

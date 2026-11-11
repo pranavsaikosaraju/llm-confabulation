@@ -180,7 +180,7 @@ def fig_flip(flip, out, model):
     for i, (task, d) in enumerate(flip.groupby("task")):
         d = d.sort_values("alpha")
         ax.plot(d.alpha, d.flip_rate, marker="o", ms=5, lw=2, color=SERIES[i], label=task)
-    ax.set_xlabel("Steering strength α (× class-mean gap)", fontsize=9, color=MUTED)
+    ax.set_xlabel("Steering strength α (× contrastive vector norm)", fontsize=9, color=MUTED)
     ax.set_ylabel("Share of answers flipped", fontsize=9, color=MUTED)
     ax.set_ylim(0, 1)
     ax.legend(fontsize=8, frameon=False)
