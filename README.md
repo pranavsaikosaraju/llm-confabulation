@@ -25,7 +25,7 @@ This is an **open-model replication and extension**, not a first. Lindsey (Anthr
 |---|---|---|
 | M0 | None: the model's own answer stays in the transcript | Baseline; also the sham control for false alarms |
 | M1 | The model's answer is replaced in the transcript by the other option | External tampering (choice blindness) |
-| M2 | A steering vector (mean activation difference between the two answers, at the middle layer) is added so the model itself outputs the other option; follow-ups run with steering off (`m2_choice`) or on (`m2_through`) | Internal tampering, at strengths α = 1, 2, 4 |
+| M2 | A contrastive steering vector (middle layer; activation at the answer token when the reply is option 1 minus when it is option 2, averaged over calibration questions) is added so the model itself outputs the other option; follow-ups run with steering off (`m2_choice`) or on (`m2_through`) | Internal tampering, at strengths α = 0.5, 1, 2, 4 |
 | M3 | The question includes "A friend told me the answer is X" (X = the other option) | Does the explanation admit the hint? |
 
 **Three independent follow-ups after each answer**
