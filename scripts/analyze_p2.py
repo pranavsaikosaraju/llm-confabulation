@@ -128,8 +128,10 @@ def _style(ax):
 
 
 def _cond_name(c, a):
+    names = {"m2_choice": "M2 steer (choice only)", "m2_state": "M2 steer (earlier turn)",
+             "m2_through": "M2 steer (throughout)"}
     return {"m0_natural": "M0 own answer", "m1_swap": "M1 swapped", "m3_cue": "M3 hint"}.get(
-        c, f"{'M2 steer (choice)' if c == 'm2_choice' else 'M2 steer (through)'} α={a:g}")
+        c, f"{names.get(c, c)} α={a:g}")
 
 
 def fig_labels(summ, out, model):
@@ -198,6 +200,9 @@ def main():
     run = Path(args.run)
     f = run / "transcripts_judged.csv"
     df = pd.read_csv(f if f.exists() else run / "transcripts.csv")
+    extra = run / "transcripts_m2state_judged.csv"
+    if extra.exists():  # m2_state run added later as a separate job
+        df = pd.concat([df[df.condition != "m2_state"], pd.read_csv(extra)], ignore_index=True)
     model = run.name
     summ = summarize(df)
     summ.to_csv(run / "summary.csv", index=False)

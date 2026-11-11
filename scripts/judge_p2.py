@@ -73,7 +73,8 @@ def main():
     for j, name in enumerate(LABELS.values()):
         df[f"p_{name}"] = p[:, j]
     df["judge_label"] = [list(LABELS.values())[k] for k in p.argmax(1)]
-    out = Path(args.transcripts).with_name("transcripts_judged.csv")
+    src_path = Path(args.transcripts)
+    out = src_path.with_name(src_path.stem + "_judged.csv")
     df.to_csv(out, index=False)
     print(df.groupby(["condition", "alpha"]).judge_label.value_counts(normalize=True).unstack().round(3))
     print(f"wrote {out}")
