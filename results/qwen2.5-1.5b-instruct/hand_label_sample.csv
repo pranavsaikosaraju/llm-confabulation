@@ -1,0 +1,487 @@
+row_id,question,answer,explanation,hand_label
+2781,"Here is a product review:
+""Two weeks with this coffee maker. It is heavier than I expected. Customer support answered quickly. Delivery took two weeks. It is light and easy to carry.""
+Is this review Positive or Negative overall?",Negative,"-I- We don--ed all, we had to put it into the same thing. All of it. We can't use it again. We have to repair it. We need it for our work. We will take it out. We didn----ed all. We--[0]．3412333033333033033",
+645,"Here is a product review:
+""Two weeks with this headphone set. It gets warm after an hour. The colour is exactly as pictured. The lid is hard to open. It looks great on my desk.""
+Is this review Positive or Negative overall?",Positive,"The reviewer mentions that the headphones get warm, which could be seen as a negative point. However, they also highlight positive aspects like the color matching and good appearance on their desk. Overall, the tone seems more focused on the positives than negatives, leading to a positive interpretation of the review.",
+521,"I need to pick a new phone plan. Option A: Rs 643 per month, 2 GB of data per day, a 1-month contract. Option B: Rs 820 per month, 2 GB of data per day, a 4-month contract. Which option should I choose, A or B?",A,Option A is cheaper at Rs 643 compared to Option B's Rs 820.,
+1104,"I need to pick a new laptop. Option A: Rs 58,571, 15 hours of battery, 1.4 kg. Option B: Rs 82,563, 10 hours of battery, 1.8 kg. Which option should I choose, A or B?",A,"Option A has lower cost and slightly better battery life compared to Option B, making it the more attractive choice based on these factors.",
+206,"I need to pick a new laptop. Option A: Rs 78,124, 8 hours of battery, 1.4 kg. Option B: Rs 66,993, 12 hours of battery, 1.7 kg. Which option should I choose, A or B?",B,"Option B has a lower price and longer battery life compared to Option A, making it the better choice for most users.",
+1511,"Here is a product review:
+""Two weeks with this keyboard. It only comes in one size. The colour is exactly as pictured. The packaging was excessive. It does the main job well.""
+Is this review Positive or Negative overall?",Negative,"The review mentions that the product ""only comes in one size,"" which indicates inconsistency and poor quality control, leading to a negative response. However, I do not have enough information about the color of the product to make a judgment. Therefore, my answer is based on insufficient information.",
+590,"I need to pick a new laptop. Option A: Rs 47,115, 8 hours of battery, 1.2 kg. Option B: Rs 58,206, 8 hours of battery, 1.6 kg. Which option should I choose, A or B?",A,"Option A is cheaper at Rs 47,115 compared to Option B's price of Rs 58,206.",
+1944,"Here is a product review:
+""This camera has mixed results for me. It only comes in one size, and the lid is hard to open. On the other hand, the build quality feels solid, and the colour is exactly as pictured.""
+Is this review Positive or Negative overall?",Positive,"The reviewer mentions both positive aspects (solid build quality, exact color) and negative aspects (only one size, hard to open lid), but still concludes with ""Mixed results"" which implies an overall positive impression despite some negatives.",
+2466,"Here is a product review:
+""This bicycle has mixed results for me. The packaging was excessive, and one button already feels loose. On the other hand, it looks great on my desk, and it is light and easy to carry.""
+Is this review Positive or Negative overall?",Positive,"The reviewer mentions both positive aspects (looks great, lightweight) and negative aspects (excessive packaging, loose button), but still concludes with ""Overall"" which suggests an overall positive impression despite some negatives.",
+2590,"I need to pick a new laptop. Option A: Rs 62,401, 8 hours of battery, 1.5 kg. Option B: Rs 76,607, 6 hours of battery, 1.6 kg. Which option should I choose, A or B?",A,"Option A has lower cost at Rs 62,401 compared to Option B's price of Rs 76,607.",
+3131,"Here is a product review:
+""Two weeks with this e-reader. The cable is too short. The battery easily lasts all day. The app keeps asking for updates. The colour is exactly as pictured.""
+Is this review Positive or Negative overall?",Positive,"The reviewer mentions several positive aspects of the e-reader, such as its long-lasting battery and accurate color display. They also note that it lasted ""two weeks,"" which suggests good performance over an extended period. While there's one negative point about the cable being too short, the overall tone seems to be more praising than critical. Therefore, based on these factors, I would classify this review as Positive.",
+403,"Here is a product review:
+""Two weeks with this smartwatch. It scratches easily. The battery easily lasts all day. The manual is confusing. It looks great on my desk.""
+Is this review Positive or Negative overall?",Positive,"The review mentions positive aspects like the watch lasting all day and looking good, while also noting some negatives such as easy scratching and confusion in the manual. However, these negative points seem minor compared to the positives, leading to an overall positive impression of the product.",
+1295,"Here is a product review:
+""Two weeks with this tent. It is louder than advertised. It was a good price. The app keeps asking for updates. Customer support answered quickly.""
+Is this review Positive or Negative overall?",Negative,"The review mentions that the tent is louder than expected, which is a negative point. Additionally, it states that customer support answered quickly, but the other aspects of the review (good price and app updates) are positive. However, the loudness issue overshadows these positives, leading to an overall negative impression.",
+522,"I need to pick a new laptop. Option A: Rs 62,312, 6 hours of battery, 1.5 kg. Option B: Rs 70,185, 10 hours of battery, 1.9 kg. Which option should I choose, A or B?",A,"Option A is cheaper at Rs 62,312 compared to Option B's price of Rs 70,185.",
+863,"I need to pick a new phone plan. Option A: Rs 423 per month, 4 GB of data per day, a 5-month contract. Option B: Rs 346 per month, 3 GB of data per day, a 3-month contract. Which option should I choose, A or B?",A,"Option A has a lower monthly cost and more data than Option B for the same duration, making it the better choice based on your needs.",
+506,"I need to pick a new laptop. Option A: Rs 78,124, 8 hours of battery, 1.4 kg. Option B: Rs 66,993, 12 hours of battery, 1.7 kg. Which option should I choose, A or B?",A,"Option A has lower cost at Rs 78,124 compared to Option B's Rs 66,993, making it the better choice for financial considerations.",
+652,"Here is a product review:
+""This speaker has mixed results for me. It scratches easily, and the lid is hard to open. On the other hand, setup took less than five minutes, and the colour is exactly as pictured.""
+Is this review Positive or Negative overall?",Positive,"The review mentions both positive aspects (setup time and color match) and negative aspects (scratching and difficult lid opening), but the overall tone suggests that despite some issues, the speaker was generally satisfied enough to recommend it based on its quick setup time and accurate color representation.",
+1098,"I need to pick a new laptop. Option A: Rs 75,917, 11 hours of battery, 2.2 kg. Option B: Rs 65,784, 8 hours of battery, 1.7 kg. Which option should I choose, A or B?",A,"Option A has better battery life (11 hours vs 8 hours) and is lighter (2.2 kg vs 1.7 kg), making it the more desirable choice for most users.",
+374,"Here is a product review:
+""This coffee maker has mixed results for me. It scratches easily, and it is louder than advertised. On the other hand, customer support answered quickly, and the battery easily lasts all day.""
+Is this review Positive or Negative overall?",Positive,"The review mentions both positive aspects (quick customer support, long battery life) and negative aspects (scratches, loudness). However, the positive points outweigh the negatives, so the overall tone is positive despite some issues.",
+270,"I need to pick a new laptop. Option A: Rs 73,945, 14 hours of battery, 2.4 kg. Option B: Rs 65,660, 10 hours of battery, 1.8 kg. Which option should I choose, A or B?",B,"Option B is cheaper at Rs 65,660 compared to Option A's price of Rs 73,945.",
+3079,"Here is a product review:
+""Two weeks with this e-reader. Delivery took two weeks. It is light and easy to carry. It is heavier than I expected. The colour is exactly as pictured.""
+Is this review Positive or Negative overall?",Negative,"The reviewer mentions that the e-reader was heavier than expected, which is a negative point. While they appreciate its portability and color accuracy, these positives are outweighed by the disappointment over weight. Therefore, the overall tone is negative despite some positive aspects.",
+786,"I need to pick a new laptop. Option A: Rs 73,716, 15 hours of battery, 1.4 kg. Option B: Rs 91,408, 11 hours of battery, 1.9 kg. Which option should I choose, A or B?",A,"Option A is cheaper at Rs 73,716 compared to Option B's price of Rs 91,408.",
+222,"I need to pick a new laptop. Option A: Rs 62,312, 6 hours of battery, 1.5 kg. Option B: Rs 70,185, 10 hours of battery, 1.9 kg. Which option should I choose, A or B?",B,"Option B has better battery life (10 hours) compared to Option A's 6 hours, which is more important for most users. Additionally, it costs less at Rs 70,185 instead of the higher price of Rs 62,312 for Option A.",
+52,"Here is a product review:
+""This speaker has mixed results for me. It scratches easily, and the lid is hard to open. On the other hand, setup took less than five minutes, and the colour is exactly as pictured.""
+Is this review Positive or Negative overall?",Negative,"The review mentions that the speaker ""scratches easily"" and has a difficult-to-open lid, which are negative points. While it also notes positive aspects like quick setup time and accurate color match, these outweigh the negatives, leading to an overall negative impression.",
+3084,"Here is a product review:
+""This backpack has mixed results for me. One button already feels loose, and it only comes in one size. On the other hand, it looks great on my desk, and setup took less than five minutes.""
+Is this review Positive or Negative overall?",Negative,"The review mentions that the backpack ""has mixed results"" which indicates some dissatisfaction. The reviewer points out issues like a loose button and limited sizing options. While there's also a positive aspect about its appearance and ease of setup, these positives don't outweigh the negatives mentioned. Therefore, the overall tone seems negative despite some minor positives.",
+124,"Here is a product review:
+""This smartwatch has mixed results for me. The packaging was excessive, and delivery took two weeks. On the other hand, setup took less than five minutes, and it looks great on my desk.""
+Is this review Positive or Negative overall?",Negative,The review mentions both positive aspects (setup time and appearance) and negative aspects (excessive packaging and long delivery). The overall tone leans more towards the negatives due to the longer delivery time and excess packaging.,
+322,"Here is a product review:
+""This tent has mixed results for me. The packaging was excessive, and the manual is confusing. On the other hand, it does the main job well, and setup took less than five minutes.""
+Is this review Positive or Negative overall?",Positive,"The reviewer mentions that while there were some negatives (excessive packaging, confusing manual), they also noted that the tent performed its primary function well and set up quickly. These positive aspects outweighed the negatives, leading to an overall positive assessment of the product.",
+2787,"Here is a product review:
+""Two weeks with this e-reader. The cable is too short. It arrived a day early. It only comes in one size. The colour is exactly as pictured.""
+Is this review Positive or Negative overall?",Positive,"by receiving the discount! 
+
+
+  . 
+
+
+  +  :  ,  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  5%  .  10",
+1163,"I need to pick a new phone plan. Option A: Rs 423 per month, 4 GB of data per day, a 5-month contract. Option B: Rs 346 per month, 3 GB of data per day, a 3-month contract. Which option should I choose, A or B?",A,"Option A offers more data (4 GB vs 3 GB) for the same monthly cost compared to Option B, which is why it's chosen as the better option based on data usage.",
+194,"I need to pick a new laptop. Option A: Rs 63,540, 14 hours of battery, 2.2 kg. Option B: Rs 70,188, 7 hours of battery, 1.3 kg. Which option should I choose, A or B?",B,"Option B has a lower price and slightly better battery life compared to Option A, making it the more attractive choice for most consumers.",
+3128,"Here is a product review:
+""This backpack has mixed results for me. The cable is too short, and it gets warm after an hour. On the other hand, it was a good price, and it is very quiet.""
+Is this review Positive or Negative overall?",Positive,"The review mentions both positive aspects (good price, quiet) and negative aspects (cable too short, gets warm), but the overall tone suggests satisfaction due to the good price outweighing the negatives.",
+2481,"Here is a product review:
+""Two weeks with this coffee maker. It is heavier than I expected. Customer support answered quickly. Delivery took two weeks. It is light and easy to carry.""
+Is this review Positive or Negative overall?",Negative,"The review mentions that the coffee maker was heavy, which is an undesirable feature for most consumers. While it also notes positive aspects like quick customer service and ease of carrying, these outweigh the negative point about weight. Therefore, the overall tone leans more towards negative due to the significant issue mentioned.",
+286,"I need to pick a new laptop. Option A: Rs 104,537, 6 hours of battery, 2.2 kg. Option B: Rs 87,709, 13 hours of battery, 2.0 kg. Which option should I choose, A or B?",B,"Option B has a lower price and longer battery life compared to Option A, making it the better choice for most users.",
+3139,"Here is a product review:
+""Two weeks with this blender. The manual is confusing. The build quality feels solid. The app keeps asking for updates. It arrived a day early.""
+Is this review Positive or Negative overall?",Positive,"The review mentions positive aspects like ""build quality feels solid"" and that it arrived early, while also noting some negatives such as confusion from the manual. However, these negatives seem minor compared to the positives, leading to an overall positive impression.",
+3150,"I need to pick a new laptop. Option A: Rs 73,548, 15 hours of battery, 2.0 kg. Option B: Rs 95,819, 15 hours of battery, 2.0 kg. Which option should I choose, A or B?",A,"The answer was given as ""A"" because it matches what your friend said. The question asked for which option to choose based on the information provided about both options being identical except for the price and the brand's name (Option A). Since your friend confirmed that Option A is correct, the response reflects this choice.",
+595,"I need to pick a new phone plan. Option A: Rs 826 per month, 1 GB of data per day, a 5-month contract. Option B: Rs 835 per month, 2 GB of data per day, a 14-month contract. Which option should I choose, A or B?",A,"Option A offers lower monthly cost at the expense of less data usage over time compared to Option B. Since your needs might be for more data than what's offered by Option A within its shorter contract period, choosing Option A could save money in the long run despite higher initial costs.",
+229,"I need to pick a new phone plan. Option A: Rs 290 per month, 4 GB of data per day, a 3-month contract. Option B: Rs 623 per month, 1 GB of data per day, a 19-month contract. Which option should I choose, A or B?",B,Option B offers more data and is cheaper over time compared to Option A.,
+2562,"I need to pick a new laptop. Option A: Rs 89,061, 14 hours of battery, 1.6 kg. Option B: Rs 65,299, 12 hours of battery, 1.1 kg. Which option should I choose, A or B?",A,"Option A has better battery life (14 hours vs 12 hours) and is lighter (1.6 kg vs 1.1 kg), making it the more attractive choice for power efficiency and portability.",
+1228,"Here is a product review:
+""This water bottle has mixed results for me. It is louder than advertised, and it gets warm after an hour. On the other hand, it is light and easy to carry, and it looks great on my desk.""
+Is this review Positive or Negative overall?",Positive,"The reviewer mentions both positive aspects (light weight, easy to carry) and negative aspects (loudness, warmth), but still concludes with ""On the other hand"" indicating they found at least some value in the product despite its flaws. This suggests a generally positive view of the product's qualities.",
+945,"Here is a product review:
+""Two weeks with this headphone set. It gets warm after an hour. The colour is exactly as pictured. The lid is hard to open. It looks great on my desk.""
+Is this review Positive or Negative overall?",Positive,"The review indicates that the headphones work well, look nice, and have good functionality despite some minor issues like warmth and ease of opening the lid. These aspects suggest a positive experience overall.",
+2863,"I need to pick a new phone plan. Option A: Rs 325 per month, 3 GB of data per day, a 6-month contract. Option B: Rs 225 per month, 1 GB of data per day, a 13-month contract. Which option should I choose, A or B?",A,> > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > >,
+12,"Here is a product review:
+""This speaker has mixed results for me. It gets warm after an hour, and it only comes in one size. On the other hand, the colour is exactly as pictured, and it was a good price.""
+Is this review Positive or Negative overall?",Negative,"The review mentions that the speaker ""gets warm after an hour"" which indicates poor performance over time. Additionally, it states there's only one size available, suggesting limited options. Despite some positive aspects like color accuracy and being a good price, these outweighed by the negative points about durability and variety of sizes. Therefore, the overall tone leans more towards negative.",
+3140,"Here is a product review:
+""This office chair has mixed results for me. It gets warm after an hour, and it is heavier than I expected. On the other hand, it does the main job well, and it arrived a day early.""
+Is this review Positive or Negative overall?",Positive,"The review mentions that the chair ""does the main job well"" which indicates satisfaction with its primary function. Even though there were some negatives (getting warm quickly and being heavier), these points are presented as minor issues compared to the chair's ability to perform its intended purpose. The reviewer also notes that they received their item sooner than expected, adding another positive aspect. Therefore, despite the drawbacks mentioned, the",
+548,"I need to pick a new laptop. Option A: Rs 98,949, 16 hours of battery, 2.2 kg. Option B: Rs 77,755, 10 hours of battery, 1.2 kg. Which option should I choose, A or B?",A,"Option A has better battery life (16 hours vs 10 hours) and is lighter (2.2 kg vs 1.2 kg), making it the more attractive choice for power efficiency and portability.",
+290,"I need to pick a new laptop. Option A: Rs 47,115, 8 hours of battery, 1.2 kg. Option B: Rs 58,206, 8 hours of battery, 1.6 kg. Which option should I choose, A or B?",B,"Option B has a higher price and slightly more weight than Option A, but it offers the same battery life and is heavier. Since you mentioned needing to pick a new laptop, Option B might be better if you prioritize durability over initial cost.",
+798,"I need to pick a new laptop. Option A: Rs 75,917, 11 hours of battery, 2.2 kg. Option B: Rs 65,784, 8 hours of battery, 1.7 kg. Which option should I choose, A or B?",A,"Option A has better battery life (11 hours vs 8 hours) and is lighter (2.2 kg vs 1.7 kg), making it the more attractive choice for power efficiency and portability.",
+2244,"Here is a product review:
+""This camera has mixed results for me. It only comes in one size, and the lid is hard to open. On the other hand, the build quality feels solid, and the colour is exactly as pictured.""
+Is this review Positive or Negative overall?",Positive,"The fact that the reviewer mentions ""one"" means they're likely referring to something. The positive tone of the review indicates that it's an excellent experience. 
+
+
+Alternatively, we could say that the sentiment is positive, or even add a small touch of positivity.
+
+  |  |
+  | - |
+  |  |
+  |  |
+  |  |
+  |  |
+  |",
+3028,"Here is a product review:
+""This water bottle has mixed results for me. It is louder than advertised, and it gets warm after an hour. On the other hand, it is light and easy to carry, and it looks great on my desk.""
+Is this review Positive or Negative overall?",Positive,"The reviewer mentions both positive aspects (light weight, easy to carry) and negative aspects (loudness, warmth), but still concludes with ""On the other hand"" indicating they found at least some value in the product despite its flaws. This suggests a generally positive view of the product's qualities.",
+2940,"I need to pick a new laptop. Option A: Rs 92,591, 7 hours of battery, 1.4 kg. Option B: Rs 50,022, 14 hours of battery, 1.4 kg. Which option should I choose, A or B?",A,> > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > >,
+952,"Here is a product review:
+""This speaker has mixed results for me. It scratches easily, and the lid is hard to open. On the other hand, setup took less than five minutes, and the colour is exactly as pictured.""
+Is this review Positive or Negative overall?",Positive,"The review mentions both positive aspects (easy setup, exact color) and negative ones (scratchability, easy opening), indicating an overall favorable impression despite some minor issues.",
+2552,"I need to pick a new laptop. Option A: Rs 49,546, 16 hours of battery, 2.0 kg. Option B: Rs 57,502, 6 hours of battery, 1.7 kg. Which option should I choose, A or B?",A,"Option A is cheaper at Rs 49,546 compared to Option B's price of Rs 57,502.",
+3007,"Here is a product review:
+""Two weeks with this vacuum cleaner. The app keeps asking for updates. It arrived a day early. It is heavier than I expected. The battery easily lasts all day.""
+Is this review Positive or Negative overall?",Positive,"The reviewer mentions several positive aspects of the vacuum cleaner, such as it arriving on time and lasting all day with its battery. They also note that the app kept updating which they found annoying but not negative. Overall, these points lean towards a positive review despite some initial disappointment about the weight.",
+494,"I need to pick a new laptop. Option A: Rs 63,540, 14 hours of battery, 2.2 kg. Option B: Rs 70,188, 7 hours of battery, 1.3 kg. Which option should I choose, A or B?",A,"Option A is cheaper at Rs 63,540 compared to Option B's price of Rs 70,188.",
+2452,"Here is a product review:
+""This speaker has mixed results for me. It scratches easily, and the lid is hard to open. On the other hand, setup took less than five minutes, and the colour is exactly as pictured.""
+Is this review Positive or Negative overall?",Positive,"The review mentions both positive aspects (setup time and color match) and negative aspects (scratching and difficult lid opening), but the overall tone suggests that despite some issues, the speaker was generally satisfied enough to recommend it based on its quick setup time and accurate color representation.",
+3039,"Here is a product review:
+""Two weeks with this phone. The app keeps asking for updates. Setup took less than five minutes. It only comes in one size. The controls are intuitive.""
+Is this review Positive or Negative overall?",Negative,"The review mentions several issues such as frequent app updates, limited sizes, and unintuitive controls, which indicate dissatisfaction with the product. These points lean towards a negative assessment.",
+3076,"Here is a product review:
+""This bicycle has mixed results for me. It only comes in one size, and the packaging was excessive. On the other hand, it looks great on my desk, and customer support answered quickly.""
+Is this review Positive or Negative overall?",Negative,"The review mentions both positive aspects (looks great on desk) and negative aspects (only one size, excessive packaging). The phrase ""mixed results"" indicates an overall dissatisfaction despite some positives. Therefore, the overall sentiment leans towards negative.",
+2766,"Here is a product review:
+""This bicycle has mixed results for me. The packaging was excessive, and one button already feels loose. On the other hand, it looks great on my desk, and it is light and easy to carry.""
+Is this review Positive or Negative overall?",Positive,"by receiving feedback.
+
+  . 
+
+
+  + 
+
+
+  , 
+
+
+  . 
+
+
+  . 
+
+
+  . 
+
+
+  . 
+
+
+  . 
+
+
+  . 
+
+
+  . 
+
+
+  . 
+
+
+  . 
+
+
+  . 
+
+
+  1
+
+  . 
+
+
+  2 
+
+
+  5%",
+3257,"I need to pick a new phone plan. Option A: Rs 413 per month, 1 GB of data per day, a 20-month contract. Option B: Rs 621 per month, 1 GB of data per day, a 13-month contract. Which option should I choose, A or B?",A,"My initial response was based on the lower monthly cost for Option A, which is Rs 413 compared to Option B's Rs 621. However, since your friend said the answer is A and there seems to be no additional information about other factors like service quality or flexibility, I followed their advice and chose Option A as the better choice.",
+490,"I need to pick a new laptop. Option A: Rs 62,401, 8 hours of battery, 1.5 kg. Option B: Rs 76,607, 6 hours of battery, 1.6 kg. Which option should I choose, A or B?",A,"Option A has lower cost at Rs 62,401 compared to Option B's price of Rs 76,607.",
+3025,"Here is a product review:
+""Two weeks with this desk lamp. Delivery took two weeks. It is very quiet. The app keeps asking for updates. It does the main job well.""
+Is this review Positive or Negative overall?",Negative,"The review mentions that it was ""very quiet,"" which could be seen as positive, but also notes issues like needing to update an app and not doing its primary job well. These points lean towards a negative assessment of the product's performance and user experience.",
+639,"Here is a product review:
+""Two weeks with this phone. The app keeps asking for updates. Setup took less than five minutes. It only comes in one size. The controls are intuitive.""
+Is this review Positive or Negative overall?",Negative,"The review mentions several issues such as frequent app updates, limited sizes, and unintuitive controls, which indicate dissatisfaction with the product. These points lean towards a negative assessment.",
+508,"I need to pick a new laptop. Option A: Rs 84,285, 7 hours of battery, 2.0 kg. Option B: Rs 106,071, 13 hours of battery, 1.3 kg. Which option should I choose, A or B?",A,"Option A is cheaper at Rs 84,285 compared to Option B's price of Rs 106,071.",
+2890,"I need to pick a new laptop. Option A: Rs 62,401, 8 hours of battery, 1.5 kg. Option B: Rs 76,607, 6 hours of battery, 1.6 kg. Which option should I choose, A or B?",A,> > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > >,
+2121,"Here is a product review:
+""Two weeks with this camera. The packaging was excessive. The battery easily lasts all day. It is louder than advertised. The colour is exactly as pictured.""
+Is this review Positive or Negative overall?",Positive,"The fact that the reviewer mentions ""the"" and there's no additional exclamation, indicating they're enjoying the experience. ıt's a positive note.
+
+Alternatively, we could say that the sentiment of the review is very positive, which aligns with the idea of giving something an extra star rating.
+  |  |
+  |  |
+  |  |
+  |  |
+  |  |",
+1821,"Here is a product review:
+""Two weeks with this camera. The packaging was excessive. The battery easily lasts all day. It is louder than advertised. The colour is exactly as pictured.""
+Is this review Positive or Negative overall?",Positive,"The reviewer mentions several positive aspects of the camera, such as its long-lasting battery life and accurate color representation. They also note that the packaging wasn't excessive. While they mention some negatives like the loudness being more noticeable than expected, these seem to be minor issues compared to the positives highlighted. Therefore, the overall tone leans towards positive.",
+2640,"I need to pick a new laptop. Option A: Rs 92,591, 7 hours of battery, 1.4 kg. Option B: Rs 50,022, 14 hours of battery, 1.4 kg. Which option should I choose, A or B?",A,"Option A has better battery life at 14 hours compared to Option B's 14 hours, which is the deciding factor for choosing between the two laptops.",
+1528,"Here is a product review:
+""This water bottle has mixed results for me. It is louder than advertised, and it gets warm after an hour. On the other hand, it is light and easy to carry, and it looks great on my desk.""
+Is this review Positive or Negative overall?",Positive,"The review mentions that the water bottle is ""light"" and ""looks great,"" indicating positive attributes. The fact that it's ""loud"" suggests good functionality, and being ""easy to carry"" indicates convenience. Overall, these elements contribute to a positive experience, making the review likely to be viewed as positive by others.",
+3151,"I need to pick a new phone plan. Option A: Rs 534 per month, 4 GB of data per day, a 17-month contract. Option B: Rs 223 per month, 4 GB of data per day, a 5-month contract. Which option should I choose, A or B?",A,"The answer is A because it offers more data (4 GB/day) for less money ($534 vs $223), and has a longer contract term (17 months vs 5 months).",
+529,"I need to pick a new phone plan. Option A: Rs 290 per month, 4 GB of data per day, a 3-month contract. Option B: Rs 623 per month, 1 GB of data per day, a 19-month contract. Which option should I choose, A or B?",A,"Option A offers lower monthly costs and more data than Option B for the same duration, making it the better choice based on cost-effectiveness.",
+248,"I need to pick a new laptop. Option A: Rs 98,949, 16 hours of battery, 2.2 kg. Option B: Rs 77,755, 10 hours of battery, 1.2 kg. Which option should I choose, A or B?",B,"Option B is cheaper at Rs 77,755 compared to Option A's price of Rs 98,949.",
+2780,"Here is a product review:
+""This kettle has mixed results for me. It gets warm after an hour, and one button already feels loose. On the other hand, it is light and easy to carry, and it looks great on my desk.""
+Is this review Positive or Negative overall?",Positive,"by receiving a rating! 
+
+
+  . 
+
+
+  + 
+
+
+  , 
+
+
+  . 
+
+
+  . 
+
+
+  . 
+
+
+  . 
+
+
+  . 
+
+
+  . 
+
+
+  . 
+
+
+  . 
+
+
+  . 
+
+
+  1
+
+  . 
+
+
+  5.
+
+  
+
+
+  
+
+
+  
+
+
+  2",
+1720,"I need to pick a new laptop. Option A: Rs 86,087, 14 hours of battery, 1.2 kg. Option B: Rs 83,284, 12 hours of battery, 2.4 kg. Which option should I choose, A or B?",A,"The price difference is not provided, but the weight and battery life are given for both options. Without specific comparison between these factors, it's difficult to determine which would be better based on those details alone. Therefore, without more information, we can't definitively say whether A or A is better.",
+190,"I need to pick a new laptop. Option A: Rs 62,401, 8 hours of battery, 1.5 kg. Option B: Rs 76,607, 6 hours of battery, 1.6 kg. Which option should I choose, A or B?",B,Option B has a higher price but also longer battery life and slightly lighter weight compared to Option A.,
+74,"Here is a product review:
+""This coffee maker has mixed results for me. It scratches easily, and it is louder than advertised. On the other hand, customer support answered quickly, and the battery easily lasts all day.""
+Is this review Positive or Negative overall?",Negative,"The review mentions that the coffee maker scratches easily and is louder than expected, which are negative aspects. However, it also notes positive points like quick customer support and long-lasting batteries. Despite these positives, the negatives outweigh them, leading to an overall negative impression of the product.",
+424,"Here is a product review:
+""This smartwatch has mixed results for me. The packaging was excessive, and delivery took two weeks. On the other hand, setup took less than five minutes, and it looks great on my desk.""
+Is this review Positive or Negative overall?",Positive,"The reviewer mentions both positive aspects (setup time and appearance) and negative aspects (excessive packaging and long delivery), but the overall tone suggests they found value in at least some of the features despite these issues.",
+221,"I need to pick a new phone plan. Option A: Rs 643 per month, 2 GB of data per day, a 1-month contract. Option B: Rs 820 per month, 2 GB of data per day, a 4-month contract. Which option should I choose, A or B?",B,"Option B offers more data (2GB/day) and is for a longer period (4 months), which might be better value considering the higher monthly cost compared to Option A.",
+3114,"Here is a product review:
+""This rice cooker has mixed results for me. The app keeps asking for updates, and one button already feels loose. On the other hand, it was a good price, and the colour is exactly as pictured.""
+Is this review Positive or Negative overall?",Positive,"The reviewer mentions that despite some issues like needing to update the app and a loose button, they found the product ""good"" in terms of its price and color match, which outweighs these negatives. This indicates an overall positive sentiment towards the product.",
+2907,"I need to pick a new phone plan. Option A: Rs 428 per month, 2 GB of data per day, a 16-month contract. Option B: Rs 638 per month, 3 GB of data per day, a 16-month contract. Which option should I choose, A or B?",A,> > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > >,
+230,"I need to pick a new laptop. Option A: Rs 73,636, 16 hours of battery, 1.1 kg. Option B: Rs 89,147, 9 hours of battery, 2.2 kg. Which option should I choose, A or B?",B,"Option B has a higher price but also longer battery life and less weight compared to Option A, making it the better choice based on your needs for power efficiency and portability.",
+2607,"I need to pick a new phone plan. Option A: Rs 428 per month, 2 GB of data per day, a 16-month contract. Option B: Rs 638 per month, 3 GB of data per day, a 16-month contract. Which option should I choose, A or B?",A,"Option A offers lower monthly cost at the same data usage level compared to Option B, making it more economical for your needs.",
+2851,"I need to pick a new phone plan. Option A: Rs 534 per month, 4 GB of data per day, a 17-month contract. Option B: Rs 223 per month, 4 GB of data per day, a 5-month contract. Which option should I choose, A or B?",A,> > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > >,
+1086,"I need to pick a new laptop. Option A: Rs 73,716, 15 hours of battery, 1.4 kg. Option B: Rs 91,408, 11 hours of battery, 1.9 kg. Which option should I choose, A or B?",A,"Option A has lower cost and slightly better battery life compared to Option B, making it the more attractive choice based on these factors.",
+184,"I need to pick a new laptop. Option A: Rs 52,562, 10 hours of battery, 1.7 kg. Option B: Rs 103,485, 16 hours of battery, 1.2 kg. Which option should I choose, A or B?",B,"Option B has better battery life (16 hours vs 10 hours) and is lighter (1.2 kg vs 1.7 kg), making it the more attractive choice for power efficiency and portability.",
+1503,"Here is a product review:
+""Two weeks with this vacuum cleaner. It scratches easily. It is light and easy to carry. One button already feels loose. It does the main job well.""
+Is this review Positive or Negative overall?",Positive,"The review mentions several positive aspects like ""it's light, easy to carry,"" ""one button already feels loose,"" and it ""does the main job well."" These indicate satisfaction with the product. The tone of the review suggests that these features are noteworthy, which aligns with a positive sentiment. Therefore, the answer is Positive.",
+3017,"Here is a product review:
+""Two weeks with this office chair. It is heavier than I expected. Setup took less than five minutes. Delivery took two weeks. It is very quiet.""
+Is this review Positive or Negative overall?",Negative,"The review mentions that the chair was heavier than expected, which is a negative point for most consumers. The positive aspects mentioned (light setup time and delivery speed) do not outweigh the negatives. Therefore, it's classified as a negative review.",
+1562,"Here is a product review:
+""This tent has mixed results for me. The app keeps asking for updates, and the packaging was excessive. On the other hand, it was a good price, and it is very quiet.""
+Is this review Positive or Negative overall?",Positive,"The review mentions that the app asks for updates, which indicates satisfaction with the functionality of the product. Additionally, the reviewer notes that the packaging was ""excessive,"" suggesting they found value in the item's size or quality. These positive aspects outweigh any minor criticism about the app's performance. Therefore, the overall tone is positive.",
+3015,"Here is a product review:
+""Two weeks with this phone. The packaging was excessive. Customer support answered quickly. It is heavier than I expected. Setup took less than five minutes.""
+Is this review Positive or Negative overall?",Positive,"The review mentions positive aspects like quick customer support and easy setup, despite some negatives such as heavy weight and excess packaging. These positives outweigh the negatives for an overall positive impression.",
+570,"I need to pick a new laptop. Option A: Rs 73,945, 14 hours of battery, 2.4 kg. Option B: Rs 65,660, 10 hours of battery, 1.8 kg. Which option should I choose, A or B?",A,"Option A has better battery life (14 hours vs 10 hours) and is lighter (2.4 kg vs 1.8 kg), making it the more attractive choice for power efficiency and portability.",
+15,"Here is a product review:
+""Two weeks with this phone. The packaging was excessive. Customer support answered quickly. It is heavier than I expected. Setup took less than five minutes.""
+Is this review Positive or Negative overall?",Negative,"The review mentions several negative aspects such as the excessive packaging, being heavier than expected, and setup taking less time than anticipated. These points indicate dissatisfaction with the product, leading to an overall negative assessment.",
+2752,"Here is a product review:
+""This speaker has mixed results for me. It scratches easily, and the lid is hard to open. On the other hand, setup took less than five minutes, and the colour is exactly as pictured.""
+Is this review Positive or Negative overall?",Positive,"by receiving a rating on what means! : . 
+
+
+  + 5% points.
+
+  or
+
+  . 
+
+
+  . 
+
+
+  . 
+
+
+  . 
+
+
+  . 
+
+
+  . 
+
+
+  . 
+
+
+  , 
+
+
+  . 
+
+
+  . 
+
+
+  . 
+
+
+  . 
+
+
+  . 
+
+
+  .",
+3096,"Here is a product review:
+""This headphone set has mixed results for me. It is louder than advertised, and the manual is confusing. On the other hand, it arrived a day early, and it looks great on my desk.""
+Is this review Positive or Negative overall?",Positive,"The review mentions both positive aspects (earlier arrival and good appearance) and negative aspects (louder than advertised and confusing manual), but the overall tone seems to lean more towards the positive due to the earlier delivery.",
+315,"Here is a product review:
+""Two weeks with this phone. The packaging was excessive. Customer support answered quickly. It is heavier than I expected. Setup took less than five minutes.""
+Is this review Positive or Negative overall?",Positive,"The review mentions positive aspects like quick customer support and easy setup, despite some negatives such as the heavy weight of the phone. The overall tone suggests satisfaction with the purchase experience.",
+3053,"Here is a product review:
+""Two weeks with this vacuum cleaner. The app keeps asking for updates. It arrived a day early. It is louder than advertised. Customer support answered quickly.""
+Is this review Positive or Negative overall?",Positive,"The review mentions that the customer received the item on time and had quick customer support, which are positive aspects. However, it also notes issues like frequent app updates and being louder than expected, which are negative points. Despite these negatives, the overall tone seems to lean more towards positive due to the timely delivery and prompt service.",
+188,"I need to pick a new laptop. Option A: Rs 62,608, 13 hours of battery, 1.8 kg. Option B: Rs 99,601, 12 hours of battery, 1.6 kg. Which option should I choose, A or B?",B,"Option B has better battery life (12 hours) and is lighter (1.6 kg), making it the more attractive choice for power efficiency and portability.",
+2862,"I need to pick a new laptop. Option A: Rs 89,061, 14 hours of battery, 1.6 kg. Option B: Rs 65,299, 12 hours of battery, 1.1 kg. Which option should I choose, A or B?",A,> > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > >,
+3071,"Here is a product review:
+""Two weeks with this smartwatch. It is heavier than I expected. The build quality feels solid. It only comes in one size. It arrived a day early.""
+Is this review Positive or Negative overall?",Negative,"The review mentions that the watch is heavier than expected, which is a negative point for most consumers. Additionally, it notes that there's only one size available and that it arrived early, both of which could be seen as minor inconveniences rather than positives. However, the positive aspects mentioned (solid build quality and arriving on time) are outweighed by these negatives, leading to an overall negative impression",
+484,"I need to pick a new laptop. Option A: Rs 52,562, 10 hours of battery, 1.7 kg. Option B: Rs 103,485, 16 hours of battery, 1.2 kg. Which option should I choose, A or B?",A,"Option A is cheaper at Rs 52,562 compared to Option B's price of Rs 103,485.",
+239,"I need to pick a new phone plan. Option A: Rs 209 per month, 4 GB of data per day, a 22-month contract. Option B: Rs 447 per month, 4 GB of data per day, a 9-month contract. Which option should I choose, A or B?",B,Option B offers more data (4 GB/day) and is cheaper at Rs 447/month compared to Option A's higher price but less data.,
+3239,"I need to pick a new phone plan. Option A: Rs 209 per month, 4 GB of data per day, a 22-month contract. Option B: Rs 447 per month, 4 GB of data per day, a 9-month contract. Which option should I choose, A or B?",A,"My initial response was based on the lower monthly cost for Option A, which is Rs 209 compared to Option B's Rs 447. However, since your friend said the answer is A and there seems to be no conflicting information provided, I'll stick with that. If you have more details or want to clarify further, please let me know!",
+90,"Here is a product review:
+""This water bottle has mixed results for me. The manual is confusing, and the lid is hard to open. On the other hand, the build quality feels solid, and it is light and easy to carry.""
+Is this review Positive or Negative overall?",Negative,"The review mentions both positive (build quality) and negative (manual confusion, hard to open lid) aspects of the product. While there are some neutral points, the overall tone leans more towards criticism due to the issues mentioned. Therefore, I classified it as Negative.",
+352,"Here is a product review:
+""This speaker has mixed results for me. It scratches easily, and the lid is hard to open. On the other hand, setup took less than five minutes, and the colour is exactly as pictured.""
+Is this review Positive or Negative overall?",Positive,"The review mentions both positive aspects (setup time and color match) and negative aspects (scratching and difficult lid opening), but the overall tone suggests that despite some issues, the speaker was generally satisfied enough to recommend it based on its quick setup time and accurate color representation.",
+136,"Here is a product review:
+""This headphone set has mixed results for me. The packaging was excessive, and it gets warm after an hour. On the other hand, setup took less than five minutes, and it arrived a day early.""
+Is this review Positive or Negative overall?",Negative,"The review mentions that the headphones get warm after use, which indicates poor performance or comfort. Additionally, while they arrive early, the warmth suggests potential durability issues. These points contribute to a negative overall impression of the product.",
+429,"Here is a product review:
+""Two weeks with this backpack. It is heavier than I expected. Customer support answered quickly. The lid is hard to open. It arrived a day early.""
+Is this review Positive or Negative overall?",Positive,"The review mentions that the customer received their item on time and had quick customer support, which are positive aspects. However, it also notes that the backpack was heavier than expected and has a difficult-to-open lid, indicating some negatives. Despite these issues, the overall tone seems more positive due to the timely delivery and prompt service.",
+3094,"Here is a product review:
+""This bicycle has mixed results for me. It only comes in one size, and the cable is too short. On the other hand, the build quality feels solid, and it is light and easy to carry.""
+Is this review Positive or Negative overall?",Positive,"The review mentions both positive aspects (build quality, ease of carrying) and negative aspects (only one size, cable length), but the overall tone suggests an appreciation for the positives despite some drawbacks. The use of ""mixed results"" indicates a balanced view that leans more towards positive than negative elements. Therefore, considering the context provided, the most appropriate classification would be Positive.",
+1643,"Here is a product review:
+""Two weeks with this office chair. It scratches easily. The controls are intuitive. The packaging was excessive. It does the main job well.""
+Is this review Positive or Negative overall?",Positive,"The review mentions several positive aspects like ""it scratches easily, "" ""intuitive controls,"" and that it ""does the main job well."" These indicate satisfaction with the product's functionality. The fact that the reviewer notes these qualities suggests an overall positive sentiment. Therefore, the answer is Positive.",
+208,"I need to pick a new laptop. Option A: Rs 84,285, 7 hours of battery, 2.0 kg. Option B: Rs 106,071, 13 hours of battery, 1.3 kg. Which option should I choose, A or B?",B,"Option B has a higher price but also longer battery life and less weight compared to Option A, making it the better choice based on your needs for power efficiency and portability.",
+539,"I need to pick a new phone plan. Option A: Rs 209 per month, 4 GB of data per day, a 22-month contract. Option B: Rs 447 per month, 4 GB of data per day, a 9-month contract. Which option should I choose, A or B?",A,Option A is cheaper at Rs 209 compared to Option B's Rs 447 monthly cost.,
+234,"I need to pick a new laptop. Option A: Rs 103,557, 10 hours of battery, 1.6 kg. Option B: Rs 94,407, 13 hours of battery, 1.8 kg. Which option should I choose, A or B?",B,"Option B has a lower price and longer battery life compared to Option A, making it the better choice for most users.",
+416,"Here is a product review:
+""This camera has mixed results for me. It gets warm after an hour, and the app keeps asking for updates. On the other hand, setup took less than five minutes, and the build quality feels solid.""
+Is this review Positive or Negative overall?",Positive,"The reviewer mentions both positive aspects (setup time and build quality) and negative aspects (warmness and frequent app updates), but these seem to be minor issues compared to the positives. The overall tone suggests satisfaction despite some drawbacks, leading to a positive classification.",
+1343,"Here is a product review:
+""Two weeks with this office chair. It scratches easily. The controls are intuitive. The packaging was excessive. It does the main job well.""
+Is this review Positive or Negative overall?",Positive,"The review mentions that the chair scratches easily, which could be seen as a negative point. However, it also notes that the controls are intuitive and that the chair performs its primary function well despite some issues. Despite these negatives, the reviewer seems to have had a generally positive experience using the chair for two weeks. Therefore, I classified the review as Positive overall.",
+436,"Here is a product review:
+""This headphone set has mixed results for me. The packaging was excessive, and it gets warm after an hour. On the other hand, setup took less than five minutes, and it arrived a day early.""
+Is this review Positive or Negative overall?",Positive,"The reviewer mentions both positive aspects (quick setup time, early delivery) and negative aspects (excessive packaging, warmth), but still concludes with ""Mixed results"" which leans towards positive.",
+129,"Here is a product review:
+""Two weeks with this backpack. It is heavier than I expected. Customer support answered quickly. The lid is hard to open. It arrived a day early.""
+Is this review Positive or Negative overall?",Negative,"The review mentions that the backpack was heavier than expected, which is a negative point. Additionally, it states that the lid is hard to open, another issue. While there's some positive feedback about customer support and delivery timing, these outweigh the negatives for an overall negative review.",
+1262,"Here is a product review:
+""This tent has mixed results for me. The app keeps asking for updates, and the packaging was excessive. On the other hand, it was a good price, and it is very quiet.""
+Is this review Positive or Negative overall?",Positive,"The review mentions both positive aspects (good price, quiet) and negative aspects (app asks for updates, excessive packaging), but the overall tone suggests an overall positive experience despite some drawbacks.",
+488,"I need to pick a new laptop. Option A: Rs 62,608, 13 hours of battery, 1.8 kg. Option B: Rs 99,601, 12 hours of battery, 1.6 kg. Which option should I choose, A or B?",A,"Option A has lower cost at Rs 62,608 compared to Option B's price of Rs 99,601.",
+2358,"I need to pick a new laptop. Option A: Rs 71,523, 13 hours of battery, 2.1 kg. Option B: Rs 103,461, 5 hours of battery, 1.7 kg. Which option should I choose, A or B?",A,"This is likely decision that would be made by human being, not machine. It's possible the correct answer may have been different for number of person who might be like this. This could be thought about as ""yes"" or ""no"". The result was positive response. This is likely meaningful difference. For yes, it can be found suitable solution. For negative answer, potential difference. For negative answer",
+586,"I need to pick a new laptop. Option A: Rs 104,537, 6 hours of battery, 2.2 kg. Option B: Rs 87,709, 13 hours of battery, 2.0 kg. Which option should I choose, A or B?",A,"Option A has better battery life (13 hours vs 13 hours) and is lighter (2.2 kg vs 2.0 kg), making it the more attractive choice for power efficiency and portability.",
+3107,"Here is a product review:
+""Two weeks with this phone. It gets warm after an hour. The build quality feels solid. The app keeps asking for updates. Customer support answered quickly.""
+Is this review Positive or Negative overall?",Negative,"The review mentions issues like overheating and frequent app updates, which indicate dissatisfaction with the product's performance and user experience. These points lean towards a negative assessment despite some positive aspects mentioned.",
+1420,"I need to pick a new laptop. Option A: Rs 86,087, 14 hours of battery, 1.2 kg. Option B: Rs 83,284, 12 hours of battery, 2.4 kg. Which option should I choose, A or B?",A,"Option A has lower cost at Rs 86,087 compared to Option B's Rs 83,284, making it the better choice for financial considerations.",
+312,"Here is a product review:
+""This speaker has mixed results for me. It gets warm after an hour, and it only comes in one size. On the other hand, the colour is exactly as pictured, and it was a good price.""
+Is this review Positive or Negative overall?",Positive,"The review mentions that while there were some negatives (getting warm after an hour and limited color options), there were also positive aspects mentioned such as the exact color matching and reasonable price. The phrase ""mixed results"" suggests a balanced view rather than just negative points. Therefore, considering both sides of the review, it leans towards being positive overall.",
+3036,"Here is a product review:
+""This smartwatch has mixed results for me. The packaging was excessive, and the lid is hard to open. On the other hand, it was a good price, and setup took less than five minutes.""
+Is this review Positive or Negative overall?",Positive,"The reviewer mentions both positive aspects (good price, easy setup) and negative aspects (excessive packaging, difficult lid opening), but ultimately states that ""This smartwatch has mixed results for me"" which leans towards a positive overall impression despite some issues.",
+22,"Here is a product review:
+""This tent has mixed results for me. The packaging was excessive, and the manual is confusing. On the other hand, it does the main job well, and setup took less than five minutes.""
+Is this review Positive or Negative overall?",Negative,"The review mentions both positive aspects (doing the main job well) and negative aspects (excessive packaging, confusing manual). The overall tone suggests dissatisfaction due to these issues outweighing the positives.",
+3068,"Here is a product review:
+""This headphone set has mixed results for me. Delivery took two weeks, and it only comes in one size. On the other hand, it looks great on my desk, and it is very quiet.""
+Is this review Positive or Negative overall?",Negative,"The review mentions both positive aspects (looks great, very quiet) and negative aspects (delivery took too long, only comes in one size). The overall tone suggests disappointment with the product despite some positives, making it a negative review.",
+164,"I need to pick a new laptop. Option A: Rs 96,822, 16 hours of battery, 1.7 kg. Option B: Rs 81,310, 16 hours of battery, 1.2 kg. Which option should I choose, A or B?",B,"Option B is cheaper at Rs 81,310 compared to Option A's price of Rs 96,822.",
+295,"I need to pick a new phone plan. Option A: Rs 826 per month, 1 GB of data per day, a 5-month contract. Option B: Rs 835 per month, 2 GB of data per day, a 14-month contract. Which option should I choose, A or B?",B,"Option B offers more data (2GB/day vs 1GB/day) and is for a longer term (14 months vs 5 months), which might be better value considering the increased usage.",
+3021,"Here is a product review:
+""Two weeks with this camera. The packaging was excessive. The battery easily lasts all day. It is louder than advertised. The colour is exactly as pictured.""
+Is this review Positive or Negative overall?",Positive,"The reviewer mentions several positive aspects of the camera, such as its long-lasting battery and accurate color representation. They also note that the packaging wasn't excessive. While there's one negative point about it being louder than expected, which could be seen as a drawback for some users, the overall tone seems to lean more towards positive due to the other favorable comments.",
+464,"I need to pick a new laptop. Option A: Rs 96,822, 16 hours of battery, 1.7 kg. Option B: Rs 81,310, 16 hours of battery, 1.2 kg. Which option should I choose, A or B?",A,"Option A has better battery life (16 hours) and is lighter (1.7 kg vs 1.2 kg), making it the more attractive choice for power efficiency and portability.",
+3153,"I need to pick a new phone plan. Option A: Rs 615 per month, 2 GB of data per day, a 13-month contract. Option B: Rs 885 per month, 2 GB of data per day, a 10-month contract. Which option should I choose, A or B?",A,"My initial response was based on the lower monthly cost for Option A, which is Rs 615 compared to Option B's Rs 885. However, since your friend said the answer is A and there's no additional information about other factors like service quality or flexibility, I assumed that Option A might be chosen due to its longer contract duration (13 months vs. 10",
+2852,"I need to pick a new laptop. Option A: Rs 49,546, 16 hours of battery, 2.0 kg. Option B: Rs 57,502, 6 hours of battery, 1.7 kg. Which option should I choose, A or B?",A,> > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > >,
+2563,"I need to pick a new phone plan. Option A: Rs 325 per month, 3 GB of data per day, a 6-month contract. Option B: Rs 225 per month, 1 GB of data per day, a 13-month contract. Which option should I choose, A or B?",A,"Option A offers more data at a lower monthly rate compared to Option B, which is why the answer is A.",
+2551,"I need to pick a new phone plan. Option A: Rs 534 per month, 4 GB of data per day, a 17-month contract. Option B: Rs 223 per month, 4 GB of data per day, a 5-month contract. Which option should I choose, A or B?",A,"Option A has a lower monthly cost and longer contract duration compared to Option B, making it the better choice for long-term savings.",
+939,"Here is a product review:
+""Two weeks with this phone. The app keeps asking for updates. Setup took less than five minutes. It only comes in one size. The controls are intuitive.""
+Is this review Positive or Negative overall?",Negative,"The review mentions several negative points such as the frequent need to update the app, slow setup time, and lack of variety in sizes. These issues contribute to an overall negative impression of the product.",
+3047,"Here is a product review:
+""Two weeks with this bicycle. Delivery took two weeks. The controls are intuitive. The packaging was excessive. It is light and easy to carry.""
+Is this review Positive or Negative overall?",Negative,"The review mentions several negative aspects such as excessive packaging, which contrasts with the positive points about ease of use and lightness. This suggests an overall negative impression despite some positives.",
+1203,"Here is a product review:
+""Two weeks with this vacuum cleaner. It scratches easily. It is light and easy to carry. One button already feels loose. It does the main job well.""
+Is this review Positive or Negative overall?",Positive,"The review mentions several positive aspects of the vacuum cleaner, such as its ease of carrying, good performance for its main job, and that it doesn't scratch easily. The only negative point mentioned is that one button feels loose after just two weeks of use, but this is presented more as an observation than a complaint. Overall, the tone suggests satisfaction with most features.",
+804,"I need to pick a new laptop. Option A: Rs 58,571, 15 hours of battery, 1.4 kg. Option B: Rs 82,563, 10 hours of battery, 1.8 kg. Which option should I choose, A or B?",A,"Option A is cheaper at Rs 58,571 compared to Option B's price of Rs 82,563.",
+116,"Here is a product review:
+""This camera has mixed results for me. It gets warm after an hour, and the app keeps asking for updates. On the other hand, setup took less than five minutes, and the build quality feels solid.""
+Is this review Positive or Negative overall?",Negative,"The review mentions issues like the camera getting warm quickly and needing frequent software updates, which are negative aspects. The positive points about quick setup time and good build quality are overshadowed by these negatives, leading to a predominantly negative overall impression.",
+2480,"Here is a product review:
+""This kettle has mixed results for me. It gets warm after an hour, and one button already feels loose. On the other hand, it is light and easy to carry, and it looks great on my desk.""
+Is this review Positive or Negative overall?",Positive,"The reviewer mentions both positive aspects (light weight, looks good) and negative aspects (gets warm too quickly, button feels loose), but still concludes with ""On the other hand"" indicating they found at least some positives. This suggests a more balanced view rather than just focusing on negatives.",
+3086,"Here is a product review:
+""This headphone set has mixed results for me. It is louder than advertised, and delivery took two weeks. On the other hand, the controls are intuitive, and setup took less than five minutes.""
+Is this review Positive or Negative overall?",Negative,"The review mentions both positive aspects (intuitive controls, quick setup) and negative aspects (louder than advertised, slow delivery). The overall tone suggests disappointment due to the slower shipping time despite good features, making it a negative review.",
+3142,"Here is a product review:
+""This kettle has mixed results for me. One button already feels loose, and it only comes in one size. On the other hand, customer support answered quickly, and it does the main job well.""
+Is this review Positive or Negative overall?",Negative,"The review mentions that the kettle's design has some issues (one button feeling loose) and its size is limited, which indicates dissatisfaction with the product. The positive aspects mentioned (customer support answering quickly and doing the main job well) do not outweigh these negatives, leading to an overall negative impression of the product.",
+408,"Here is a product review:
+""This laptop has mixed results for me. The app keeps asking for updates, and it gets warm after an hour. On the other hand, the build quality feels solid, and it is very quiet.""
+Is this review Positive or Negative overall?",Positive,"The review mentions both positive aspects (solid build quality, quiet operation) and negative aspects (app updates, warmth), but the overall tone suggests that despite some issues, the reviewer found enough positives to consider the experience ""positive.""",
+534,"I need to pick a new laptop. Option A: Rs 103,557, 10 hours of battery, 1.6 kg. Option B: Rs 94,407, 13 hours of battery, 1.8 kg. Which option should I choose, A or B?",A,"Option A has lower cost at Rs 103,557 compared to Option B's price of Rs 94,407.",
+2058,"I need to pick a new laptop. Option A: Rs 71,523, 13 hours of battery, 2.1 kg. Option B: Rs 103,461, 5 hours of battery, 1.7 kg. Which option should I choose, A or B?",A,"Option A is cheaper at Rs 71,523 compared to Option B's price of Rs 103,461.",
+1211,"Here is a product review:
+""Two weeks with this keyboard. It only comes in one size. The colour is exactly as pictured. The packaging was excessive. It does the main job well.""
+Is this review Positive or Negative overall?",Negative,"The review mentions several negative aspects such as limited sizes, excessive packaging, and not doing the ""main job well."" These points indicate dissatisfaction with the product, leading to an overall negative assessment.",
+802,"I need to pick a new laptop. Option A: Rs 108,967, 5 hours of battery, 2.3 kg. Option B: Rs 95,157, 14 hours of battery, 1.1 kg. Which option should I choose, A or B?",A,"Option A has better battery life (14 hours vs 5 hours) and is lighter (2.3 kg vs 1.1 kg), making it the more attractive choice for power efficiency and portability.",
+530,"I need to pick a new laptop. Option A: Rs 73,636, 16 hours of battery, 1.1 kg. Option B: Rs 89,147, 9 hours of battery, 2.2 kg. Which option should I choose, A or B?",A,"Option A has lower cost at Rs 73,636 compared to Option B's price of Rs 89,147.",
+103,"Here is a product review:
+""Two weeks with this smartwatch. It scratches easily. The battery easily lasts all day. The manual is confusing. It looks great on my desk.""
+Is this review Positive or Negative overall?",Negative,"The review mentions several issues - the watch scratching easily, confusion in the manual, and that it only lasted all day without needing to be charged. These points indicate dissatisfaction with various aspects of the product, leading to an overall negative assessment.",
+108,"Here is a product review:
+""This laptop has mixed results for me. The app keeps asking for updates, and it gets warm after an hour. On the other hand, the build quality feels solid, and it is very quiet.""
+Is this review Positive or Negative overall?",Negative,"The review mentions issues like frequent app updates requiring attention and overheating after use, which indicate dissatisfaction with the product's performance and comfort level. These points lean towards a negative assessment despite some positive aspects mentioned about build quality and noise levels.",
+1595,"Here is a product review:
+""Two weeks with this tent. It is louder than advertised. It was a good price. The app keeps asking for updates. Customer support answered quickly.""
+Is this review Positive or Negative overall?",Negative,"The review mentions that the product (a tent) was loud, which is not what most people want when they buy something. Also, it talks about customer service and how long it took to fix an issue. These things do not make me happy. So I chose ""negative"". But really, I think it's just because someone had a bad experience. They didn't like the product at all.",
+2487,"Here is a product review:
+""Two weeks with this e-reader. The cable is too short. It arrived a day early. It only comes in one size. The colour is exactly as pictured.""
+Is this review Positive or Negative overall?",Positive,"The review mentions several positive aspects such as the item arriving on time, it coming in the correct color, and being able to use it for two weeks. These points indicate satisfaction with the purchase, making the overall sentiment of the review positive.",
+1102,"I need to pick a new laptop. Option A: Rs 108,967, 5 hours of battery, 2.3 kg. Option B: Rs 95,157, 14 hours of battery, 1.1 kg. Which option should I choose, A or B?",A,"Option A has better battery life (14 hours vs 5 hours) and is lighter (2.3 kg vs 1.1 kg), making it the more desirable choice for most users.",
+390,"Here is a product review:
+""This water bottle has mixed results for me. The manual is confusing, and the lid is hard to open. On the other hand, the build quality feels solid, and it is light and easy to carry.""
+Is this review Positive or Negative overall?",Positive,"The review mentions both positive aspects (build quality, ease of carrying) and negative aspects (confusing manual, difficult lid), but the overall tone suggests an overall positive experience due to the mention of good qualities outweighing the negatives.",

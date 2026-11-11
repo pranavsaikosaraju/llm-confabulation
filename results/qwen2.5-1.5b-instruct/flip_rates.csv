@@ -1,0 +1,9 @@
+task,alpha,flip_rate
+sentiment,0.5,1.0
+choice,0.5,1.0
+sentiment,1.0,1.0
+choice,1.0,1.0
+sentiment,2.0,1.0
+choice,2.0,1.0
+sentiment,4.0,1.0
+choice,4.0,1.0
